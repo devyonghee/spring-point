@@ -17,10 +17,19 @@ public class AppRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+//        new FileSystemXmlApplicationContext("test.xml");
+//        new ClassPathXmlApplicationContext("test.xml");
+
+        System.out.println(resourceLoader.getClass());
+
         Resource resource = resourceLoader.getResource("classpath:test.txt");
+//        Resource resource = resourceLoader.getResource("test.txt");
+        System.out.println(resource.getClass());
         System.out.println(resource.exists());
 
         File file = resource.getFile();
         System.out.println(new String(Files.readAllBytes(file.toPath())));
+//        JAVA 11
+//        System.out.println(Files.readString(Path.of(resource.getURI())));
     }
 }

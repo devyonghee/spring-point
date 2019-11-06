@@ -1,13 +1,13 @@
-package com.devyonghee.resourceloader;
+package com.devyonghee.validation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResourceLoaderApplication {
+public class ValidationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ResourceLoaderApplication.class, args);
+        SpringApplication.run(ValidationApplication.class, args);
     }
 
 }

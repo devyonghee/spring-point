@@ -1,10 +1,10 @@
-package com.devyonghee.resourceloader;
+package com.devyonghee.databinding;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ResourceLoaderApplicationTests {
+class DataBindingApplicationTests {
 
     @Test
     void contextLoads() {

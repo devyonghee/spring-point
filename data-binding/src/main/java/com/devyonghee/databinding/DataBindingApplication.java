@@ -1,13 +1,13 @@
-package com.devyonghee.resourceloader;
+package com.devyonghee.databinding;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ResourceLoaderApplication {
+public class DataBindingApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ResourceLoaderApplication.class, args);
+        SpringApplication.run(DataBindingApplication.class, args);
     }
 
 }
