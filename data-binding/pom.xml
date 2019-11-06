@@ -11,7 +11,7 @@
     <groupId>com.devyonghee</groupId>
     <artifactId>springel</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springel</name>
+    <name>data-binding</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,6 +22,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
